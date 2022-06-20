@@ -5,6 +5,8 @@ import java.util.List;
 
 public class Runner {
 
+	private int[] myIntArrays;
+
 	public static void main(String[] args) {
 
 		List<String> myArray = new ArrayList<>();
@@ -12,24 +14,31 @@ public class Runner {
 		myArray.add("Gracious");
 		myArray.add("Ruth");
 
-		for (String value : arrayOfStrings) {
+		for (String value : myArray) {
 			System.out.println(value);
 		}
 
 	}
 
-	public void questionTwo() {
-//		Regular Array
-//		int[]myIntArray = {1,2,3,4,5,6,7,8}
-		
-		List<Integer> myIntarray = new ArrayList<>();
-		for(int i = 1; i<21; i++) {
-			myIntArray.add(i);
-			
-			
-				}
-			}
+	public boolean questionThree(int input) {
+
+//		This means the number is even % 2
+		if (input % 2 == 0) {
+			return true;
+		} else {
+			return false;
 		}
 	}
 
+	public void questionFour() {
+		myIntArrays = null;
+		for (int value : myIntArrays) {
+			if (questionThree(value)) {
+				System.out.println(value * value * value);
+			} else {
+				System.out.println(value * value);
+			}
+		}
+
+	}
 }
