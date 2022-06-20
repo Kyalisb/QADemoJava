@@ -6,7 +6,19 @@ public class datatypes {
 		
 	}
 	
-
+// float and double are used for decimal numbers
+//	float bankBalance = 488.99f;
+//	double bankBalance = 488.99;
+	
+//	boolean values are either true or false
+//	boolean happy - true;
+	
+//	characters are single unicode characters
+	char letter = 'a';
+	
+//	non- primitive (object) datatypes(start with capital letters)
+	
+	
 	public static int methodOne() {
 		return 0;
 	}
@@ -25,6 +37,7 @@ public class datatypes {
 
 	public float methodFive() {
 		return 0.6f;
+		
 	}
 
 	public String methodSix() {
@@ -34,4 +47,7 @@ public class datatypes {
 	public void methodSeven() {
 
 	}
+	
+//Methods can return any datatypes, including void (meaning returning nothing
 }
+// You can change the method if you want a return something. It can return double, int, string, boolean. where there is void.
