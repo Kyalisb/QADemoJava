@@ -32,6 +32,9 @@ public class Vehicle {
 		this.colour = colour;
 	}
 	
+	public void calculateBill() {
+		System.out.println("");
+	}
 	
 
 	

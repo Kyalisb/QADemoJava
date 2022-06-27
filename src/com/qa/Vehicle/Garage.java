@@ -5,6 +5,12 @@ import java.util.List;
 
 public class Garage {
 
-	private List<Vehicle> ListOfVehicle = new ArrayList<>();
+	private List<Vehicle> listOfVehicle = new ArrayList<>();
 
+    public void add(Vehicle input) {
+    	
+    	listOfVehicle.add(input);
+    	
+    }
+	
 }
